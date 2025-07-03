@@ -8,6 +8,7 @@ from api.file_writer import FileWriter
 writer = FileWriter()
 
 def check_serviceKey():
+    
     if not hasattr(constant, "serviceKey"):
         raise error.ServiceKeyError()
     
