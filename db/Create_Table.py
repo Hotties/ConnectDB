@@ -41,6 +41,7 @@ def create_Dtl_List(cur: pymysql.cursors.Cursor):
             p_Value FLOAT,
             cmpr_Item_Code INT,
             measure_Year INT,
+                
             achl_Kind_Code INT,
             FOREIGN KEY (cmpr_Item_Code, measure_Year)
                 REFERENCES CMPR_ITEM_LIST(cmpr_Item_Code, measure_Year),
