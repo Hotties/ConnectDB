@@ -33,12 +33,11 @@ def check_api_reponse(_data):
         raise error.APIResponseError(code,msg)
     
 
-def apiConnect(measure_Year,achl_Kind_Code,cmpr_Item_Code, writer):
+def apiConnect(measure_Year,achl_Kind_Code, writer):
 
     check_serviceKey()
 
     print(f"{measure_Year}년도 api 연결 시도...")
-    
     param = {'serviceKey' : constant.serviceKey,'measure_Year' : measure_Year,'achl_Kind_Code':achl_Kind_Code}
     response = requests.get(constant.url,params=param)
 

@@ -17,5 +17,6 @@ _constants = _constant()
 _constants.url = os.getenv("KOREAN_ALCOHOL_API_URL")
 _constants.serviceKey = os.getenv("KOREAN_ALCOHOL_API_KEY")
 
+
 import sys
 sys.modules[__name__] = _constants

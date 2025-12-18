@@ -23,15 +23,15 @@ def main():
     ##결과 입력 함수 생성
     writer = FileWriter()
 
-    for year in range(435001,435007):
+    for code in range(435001,435002):
 
-        print(f"{year}번 코드 처리중 ...")
+        print(f"{code}번 코드 처리중 ...")
 
         ## api 연결
         try:    
-            connect_api.apiConnect(2015,year,436001,writer)
+            connect_api.apiConnect(2015,code,writer)
         except Exception as e:
-            print(f"{year}코드 api 연결 실패: {e}")
+            print(f"{code}코드 api 연결 실패: {e}")
             continue
 
         ## 데이터 파싱 
