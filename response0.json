@@ -1,0 +1,1023 @@
+{
+    "response": {
+        "header": {
+            "result_Code": "200",
+            "result_Msg": "정상"
+        },
+        "body": {
+            "items": {
+                "item": {
+                    "measure_Year": "2015",
+                    "achl_Kind_Code": "435001",
+                    "achl_Kind_Nm": "생막걸리",
+                    "sample_Cnt": "34",
+                    "sample_Rm": "입상주 4, 비입상주 30",
+                    "cmpr_Item_List": {
+                        "item": [
+                            {
+                                "cmpr_Item_Code": "436001",
+                                "cmpr_Item_Nm": "일반성분비교",
+                                "cmpr_Dtl_List": {
+                                    "item": [
+                                        {
+                                            "cmpr_Dtl_Code": "436006",
+                                            "cmpr_Dtl_Nm": "알코올",
+                                            "cmpr_Dtl_Engl_Nm": "Alcohol",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "7.09",
+                                            "ctmouthresdng": "7.47",
+                                            "f_Value": "10.92",
+                                            "p_Value": "0.641"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436007",
+                                            "cmpr_Dtl_Nm": "pH",
+                                            "cmpr_Dtl_Engl_Nm": "pH",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "3.97",
+                                            "ctmouthresdng": "3.73",
+                                            "f_Value": "4.68",
+                                            "p_Value": "0.06"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436008",
+                                            "cmpr_Dtl_Nm": "총산",
+                                            "cmpr_Dtl_Engl_Nm": "Total acidity",
+                                            "sfe": "산도 X 0.0064(citric acid) X 10",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.4",
+                                            "ctmouthresdng": "0.43",
+                                            "f_Value": "4.93",
+                                            "p_Value": "0.157"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436009",
+                                            "cmpr_Dtl_Nm": "환원당",
+                                            "cmpr_Dtl_Engl_Nm": "Reducing sugar",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.31",
+                                            "ctmouthresdng": "0.2",
+                                            "f_Value": "1.9",
+                                            "p_Value": "0.453"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436010",
+                                            "cmpr_Dtl_Nm": "당산비",
+                                            "cmpr_Dtl_Engl_Nm": "Sugar-acid ratio",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "1.3",
+                                            "ctmouthresdng": "0.34",
+                                            "f_Value": "22.31",
+                                            "p_Value": "0.042"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436011",
+                                            "cmpr_Dtl_Nm": "아미노산",
+                                            "cmpr_Dtl_Engl_Nm": "Glycine",
+                                            "sfe": "아미노산도 X0.0075(glycine) X 10",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.24",
+                                            "ctmouthresdng": "0.15",
+                                            "f_Value": "10.47",
+                                            "p_Value": "0.148"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436012",
+                                            "cmpr_Dtl_Nm": "가용성 고형분",
+                                            "cmpr_Dtl_Engl_Nm": "Soluble solids",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "8.26",
+                                            "ctmouthresdng": "6.92",
+                                            "f_Value": "1.02",
+                                            "p_Value": "0.462"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436013",
+                                            "cmpr_Dtl_Nm": "휘발산",
+                                            "cmpr_Dtl_Engl_Nm": "Volatile acidity",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "99.8",
+                                            "ctmouthresdng": "92.48",
+                                            "f_Value": "0.66",
+                                            "p_Value": "0.737"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436014",
+                                            "cmpr_Dtl_Nm": "색도",
+                                            "cmpr_Dtl_Engl_Nm": "Color difference",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "32.45",
+                                            "ctmouthresdng": "32.31",
+                                            "f_Value": "3.19",
+                                            "p_Value": "0.344"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "cmpr_Item_Code": "436002",
+                                "cmpr_Item_Nm": "유기산비교",
+                                "cmpr_Dtl_List": {
+                                    "item": [
+                                        {
+                                            "cmpr_Dtl_Code": "436015",
+                                            "cmpr_Dtl_Nm": "아세트산",
+                                            "cmpr_Dtl_Engl_Nm": "Acetic acid",
+                                            "sfe": "식초맛",
+                                            "prsiundo": null,
+                                            "in_Value": "45",
+                                            "mouthresdng": "129.06",
+                                            "ctmouthresdng": "82.48",
+                                            "f_Value": "0.53",
+                                            "p_Value": "0.006"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436016",
+                                            "cmpr_Dtl_Nm": "시트르산",
+                                            "cmpr_Dtl_Engl_Nm": "Citric acid",
+                                            "sfe": "부드럽고 상쾌한 신맛",
+                                            "prsiundo": null,
+                                            "in_Value": "78",
+                                            "mouthresdng": "36.43",
+                                            "ctmouthresdng": "82.05",
+                                            "f_Value": "6.75",
+                                            "p_Value": "0.011"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436017",
+                                            "cmpr_Dtl_Nm": "푸마르산",
+                                            "cmpr_Dtl_Engl_Nm": "Fumaric acid",
+                                            "sfe": "수렴성 신맛",
+                                            "prsiundo": null,
+                                            "in_Value": "140",
+                                            "mouthresdng": "5.56",
+                                            "ctmouthresdng": "4.32",
+                                            "f_Value": "0.74",
+                                            "p_Value": "0.538"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436018",
+                                            "cmpr_Dtl_Nm": "락트산",
+                                            "cmpr_Dtl_Engl_Nm": "Lactic acid",
+                                            "sfe": "부드러운 신맛",
+                                            "prsiundo": null,
+                                            "in_Value": "65",
+                                            "mouthresdng": "273.42",
+                                            "ctmouthresdng": "162.07",
+                                            "f_Value": "0.53",
+                                            "p_Value": "0.037"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436019",
+                                            "cmpr_Dtl_Nm": "말산",
+                                            "cmpr_Dtl_Engl_Nm": "Malic acid",
+                                            "sfe": "상쾌한 신맛",
+                                            "prsiundo": null,
+                                            "in_Value": "72",
+                                            "mouthresdng": "15.94",
+                                            "ctmouthresdng": "25.3",
+                                            "f_Value": "0.89",
+                                            "p_Value": "0.574"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436020",
+                                            "cmpr_Dtl_Nm": "숙신산",
+                                            "cmpr_Dtl_Engl_Nm": "Succinic acid",
+                                            "sfe": "짠맛, 쓴맛, 신맛의 복합",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "8.76",
+                                            "ctmouthresdng": "9.35",
+                                            "f_Value": "0.8",
+                                            "p_Value": "0.863"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436021",
+                                            "cmpr_Dtl_Nm": "타르타르산",
+                                            "cmpr_Dtl_Engl_Nm": "Tartaric acid",
+                                            "sfe": "감칠맛",
+                                            "prsiundo": null,
+                                            "in_Value": "90-100",
+                                            "mouthresdng": "0.49",
+                                            "ctmouthresdng": "14.96",
+                                            "f_Value": "13.82",
+                                            "p_Value": "0"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "cmpr_Item_Code": "436003",
+                                "cmpr_Item_Nm": "유리당비교",
+                                "cmpr_Dtl_List": {
+                                    "item": [
+                                        {
+                                            "cmpr_Dtl_Code": "436022",
+                                            "cmpr_Dtl_Nm": "아라비노오스",
+                                            "cmpr_Dtl_Engl_Nm": "Arabinose",
+                                            "sfe": null,
+                                            "prsiundo": "60",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.06",
+                                            "ctmouthresdng": "0.17",
+                                            "f_Value": "5.76",
+                                            "p_Value": "0.001"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436023",
+                                            "cmpr_Dtl_Nm": "프락토오스",
+                                            "cmpr_Dtl_Engl_Nm": "Fructose",
+                                            "sfe": null,
+                                            "prsiundo": "100-173",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.42",
+                                            "ctmouthresdng": "5.88",
+                                            "f_Value": "3.3",
+                                            "p_Value": "0.322"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436024",
+                                            "cmpr_Dtl_Nm": "글루코오스",
+                                            "cmpr_Dtl_Engl_Nm": "Glucose",
+                                            "sfe": null,
+                                            "prsiundo": "50-74",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.32",
+                                            "ctmouthresdng": "0.49",
+                                            "f_Value": "0.98",
+                                            "p_Value": "0.697"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436025",
+                                            "cmpr_Dtl_Nm": "글리세롤",
+                                            "cmpr_Dtl_Engl_Nm": "Glycerol",
+                                            "sfe": null,
+                                            "prsiundo": "48",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.66",
+                                            "ctmouthresdng": "0.75",
+                                            "f_Value": "1.98",
+                                            "p_Value": "0.825"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436026",
+                                            "cmpr_Dtl_Nm": "이소말토오스",
+                                            "cmpr_Dtl_Engl_Nm": "Isomaltose",
+                                            "sfe": null,
+                                            "prsiundo": "50-60",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.04",
+                                            "ctmouthresdng": "0.25",
+                                            "f_Value": "0.96",
+                                            "p_Value": "0.548"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436027",
+                                            "cmpr_Dtl_Nm": "말토오스",
+                                            "cmpr_Dtl_Engl_Nm": "Maltose",
+                                            "sfe": null,
+                                            "prsiundo": "50-60",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.16",
+                                            "ctmouthresdng": "0.33",
+                                            "f_Value": "1.43",
+                                            "p_Value": "0.515"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436028",
+                                            "cmpr_Dtl_Nm": "라피노오스",
+                                            "cmpr_Dtl_Engl_Nm": "Raffinose",
+                                            "sfe": null,
+                                            "prsiundo": "50-60",
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0.01",
+                                            "f_Value": "1.08",
+                                            "p_Value": "0.511"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436029",
+                                            "cmpr_Dtl_Nm": "리보오스",
+                                            "cmpr_Dtl_Engl_Nm": "Ribose",
+                                            "sfe": null,
+                                            "prsiundo": "60",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.23",
+                                            "ctmouthresdng": "0.33",
+                                            "f_Value": "0.56",
+                                            "p_Value": "0.797"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436030",
+                                            "cmpr_Dtl_Nm": "수크로오스",
+                                            "cmpr_Dtl_Engl_Nm": "Sucrose",
+                                            "sfe": null,
+                                            "prsiundo": "100",
+                                            "in_Value": null,
+                                            "mouthresdng": "0.34",
+                                            "ctmouthresdng": "0.15",
+                                            "f_Value": "1.28",
+                                            "p_Value": "0.244"
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436031",
+                                            "cmpr_Dtl_Nm": "자일로오스",
+                                            "cmpr_Dtl_Engl_Nm": "Xylose",
+                                            "sfe": null,
+                                            "prsiundo": "40",
+                                            "in_Value": null,
+                                            "mouthresdng": "9.61",
+                                            "ctmouthresdng": "2.19",
+                                            "f_Value": "9.71",
+                                            "p_Value": "0.17"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "cmpr_Item_Code": "436004",
+                                "cmpr_Item_Nm": "향기성분비교",
+                                "cmpr_Dtl_List": {
+                                    "item": [
+                                        {
+                                            "cmpr_Dtl_Code": "436032",
+                                            "cmpr_Dtl_Nm": "아세트알데하이드",
+                                            "cmpr_Dtl_Engl_Nm": "Acetaldehyde",
+                                            "sfe": "풋사과향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436033",
+                                            "cmpr_Dtl_Nm": "아세트산",
+                                            "cmpr_Dtl_Engl_Nm": "Acetic acid",
+                                            "sfe": "식초향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "733.69",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436034",
+                                            "cmpr_Dtl_Nm": "이소아밀 알코올",
+                                            "cmpr_Dtl_Engl_Nm": "Iso-amylalcohol",
+                                            "sfe": "알코올향, 단향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "180.2",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436035",
+                                            "cmpr_Dtl_Nm": "노말 부탄올",
+                                            "cmpr_Dtl_Engl_Nm": "n-Butanol",
+                                            "sfe": "알코올향, 바나나향, 단내",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.46",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436036",
+                                            "cmpr_Dtl_Nm": "이소부탄올",
+                                            "cmpr_Dtl_Engl_Nm": "Iso-butanol",
+                                            "sfe": "알코올향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "88.44",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436037",
+                                            "cmpr_Dtl_Nm": "부티르산",
+                                            "cmpr_Dtl_Engl_Nm": "Butyric acid",
+                                            "sfe": "블쾌한 향, 간장향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "10.89",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436038",
+                                            "cmpr_Dtl_Nm": "아세트산 에틸",
+                                            "cmpr_Dtl_Engl_Nm": "Ethyl acetate",
+                                            "sfe": "에테르향, 과일향, 바나나향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "116.06",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436039",
+                                            "cmpr_Dtl_Nm": "카프르산 에틸",
+                                            "cmpr_Dtl_Engl_Nm": "Ethyl caprate",
+                                            "sfe": "꼬냑향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436040",
+                                            "cmpr_Dtl_Nm": "카푸릴산 에틸",
+                                            "cmpr_Dtl_Engl_Nm": "Ethyl caprylate",
+                                            "sfe": "과일향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436041",
+                                            "cmpr_Dtl_Nm": "에탄올",
+                                            "cmpr_Dtl_Engl_Nm": "EtOH(%)",
+                                            "sfe": "알코올향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436042",
+                                            "cmpr_Dtl_Nm": "푸르푸랄",
+                                            "cmpr_Dtl_Engl_Nm": "Furfral",
+                                            "sfe": "탄내, 자극취",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "4.16",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436043",
+                                            "cmpr_Dtl_Nm": "노말 헥산올",
+                                            "cmpr_Dtl_Engl_Nm": "n-Hexanol",
+                                            "sfe": "신선한 과일향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "3.32",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436044",
+                                            "cmpr_Dtl_Nm": "리날로올",
+                                            "cmpr_Dtl_Engl_Nm": "Linalool",
+                                            "sfe": "시트러스향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436045",
+                                            "cmpr_Dtl_Nm": "메탄올",
+                                            "cmpr_Dtl_Engl_Nm": "MeOH",
+                                            "sfe": "절임식품향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "125.02",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436046",
+                                            "cmpr_Dtl_Nm": "2-페닐에탄올",
+                                            "cmpr_Dtl_Engl_Nm": "2-phenyl ethanol",
+                                            "sfe": "장미향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "81.71",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436047",
+                                            "cmpr_Dtl_Nm": "1-프로판올",
+                                            "cmpr_Dtl_Engl_Nm": "1-Propanol",
+                                            "sfe": "약한 알코올향",
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "78.31",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "cmpr_Item_Code": "436005",
+                                "cmpr_Item_Nm": "유리아미노산비교",
+                                "cmpr_Dtl_List": {
+                                    "item": [
+                                        {
+                                            "cmpr_Dtl_Code": "436048",
+                                            "cmpr_Dtl_Nm": "알라닌",
+                                            "cmpr_Dtl_Engl_Nm": "Alanine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "129.067",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436049",
+                                            "cmpr_Dtl_Nm": "암모니아",
+                                            "cmpr_Dtl_Engl_Nm": "Ammonia",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "34.7016",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436050",
+                                            "cmpr_Dtl_Nm": "안세린",
+                                            "cmpr_Dtl_Engl_Nm": "Anserine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.10636",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436051",
+                                            "cmpr_Dtl_Nm": "아르기닌",
+                                            "cmpr_Dtl_Engl_Nm": "Arginine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "129.8934",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436052",
+                                            "cmpr_Dtl_Nm": "아스파르트산",
+                                            "cmpr_Dtl_Engl_Nm": "Aspartic acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "126.9886",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436053",
+                                            "cmpr_Dtl_Nm": "알파아미노아디온산",
+                                            "cmpr_Dtl_Engl_Nm": "α-Aminoadioic acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "2.34803",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436054",
+                                            "cmpr_Dtl_Nm": "알파아미노부티르산",
+                                            "cmpr_Dtl_Engl_Nm": "α-Aminobutyric acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "8.453645",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436055",
+                                            "cmpr_Dtl_Nm": "베타알라닌",
+                                            "cmpr_Dtl_Engl_Nm": "β-Alanine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "6.732166",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436056",
+                                            "cmpr_Dtl_Nm": "베타아미노부티르산",
+                                            "cmpr_Dtl_Engl_Nm": "β-Aminobutyric acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "35.89727",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436057",
+                                            "cmpr_Dtl_Nm": "베타아미노이소부티르산",
+                                            "cmpr_Dtl_Engl_Nm": "β-Aminoisobutyric acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "81.558",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436058",
+                                            "cmpr_Dtl_Nm": "카르노신",
+                                            "cmpr_Dtl_Engl_Nm": "Carnosine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "8.780546",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436059",
+                                            "cmpr_Dtl_Nm": "시트룰린",
+                                            "cmpr_Dtl_Engl_Nm": "Citrulline",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.077394",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436060",
+                                            "cmpr_Dtl_Nm": "시스타티오닌",
+                                            "cmpr_Dtl_Engl_Nm": "Cystathionine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "6.324088",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436061",
+                                            "cmpr_Dtl_Nm": "시스테인",
+                                            "cmpr_Dtl_Engl_Nm": "Cysteine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "10.07005",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436062",
+                                            "cmpr_Dtl_Nm": "에탄올아민",
+                                            "cmpr_Dtl_Engl_Nm": "Ethanolamine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "4.165504",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436063",
+                                            "cmpr_Dtl_Nm": "글루탐산",
+                                            "cmpr_Dtl_Engl_Nm": "Glutamic acid",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "3.942587",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436064",
+                                            "cmpr_Dtl_Nm": "글리신",
+                                            "cmpr_Dtl_Engl_Nm": "Glycine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "145.9104",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436065",
+                                            "cmpr_Dtl_Nm": "히스티딘",
+                                            "cmpr_Dtl_Engl_Nm": "Histidine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "69.43535",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436066",
+                                            "cmpr_Dtl_Nm": "히드록실리신",
+                                            "cmpr_Dtl_Engl_Nm": "Hydroxylysine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "29.28164",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436067",
+                                            "cmpr_Dtl_Nm": "히드록시프롤린",
+                                            "cmpr_Dtl_Engl_Nm": "Hydroxyproline",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.198601",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436068",
+                                            "cmpr_Dtl_Nm": "이소루신",
+                                            "cmpr_Dtl_Engl_Nm": "Isoleucine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.810876",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436069",
+                                            "cmpr_Dtl_Nm": "루신",
+                                            "cmpr_Dtl_Engl_Nm": "Leucine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "57.12074",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436070",
+                                            "cmpr_Dtl_Nm": "리신",
+                                            "cmpr_Dtl_Engl_Nm": "Lysine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "139.6189",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436071",
+                                            "cmpr_Dtl_Nm": "메티오닌",
+                                            "cmpr_Dtl_Engl_Nm": "Methionine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "99.19246",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436072",
+                                            "cmpr_Dtl_Nm": "3-메틸히스티딘",
+                                            "cmpr_Dtl_Engl_Nm": "3-Methylhistidine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.023434",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436073",
+                                            "cmpr_Dtl_Nm": "오르니틴",
+                                            "cmpr_Dtl_Engl_Nm": "Ornithine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.013169",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436074",
+                                            "cmpr_Dtl_Nm": "페닐알라닌",
+                                            "cmpr_Dtl_Engl_Nm": "Phenylalanine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "68.50741",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436075",
+                                            "cmpr_Dtl_Nm": "에탄올아민인산",
+                                            "cmpr_Dtl_Engl_Nm": "Phosphoethanolamine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "97.32923",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436076",
+                                            "cmpr_Dtl_Nm": "포스포세린",
+                                            "cmpr_Dtl_Engl_Nm": "Phosphoserine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "2.3974",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436077",
+                                            "cmpr_Dtl_Nm": "프롤린",
+                                            "cmpr_Dtl_Engl_Nm": "Proline",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "6.381877",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436078",
+                                            "cmpr_Dtl_Nm": "사르코신",
+                                            "cmpr_Dtl_Engl_Nm": "Sarcosine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "94.00728",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436079",
+                                            "cmpr_Dtl_Nm": "세림",
+                                            "cmpr_Dtl_Engl_Nm": "Serine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.057805",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436080",
+                                            "cmpr_Dtl_Nm": "타우린",
+                                            "cmpr_Dtl_Engl_Nm": "Taurine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "66.61716",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436081",
+                                            "cmpr_Dtl_Nm": "트레오닌",
+                                            "cmpr_Dtl_Engl_Nm": "Threonine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436082",
+                                            "cmpr_Dtl_Nm": "티로신",
+                                            "cmpr_Dtl_Engl_Nm": "Tryptophan",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "39.70663",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436083",
+                                            "cmpr_Dtl_Nm": "우레아",
+                                            "cmpr_Dtl_Engl_Nm": "Urea",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "74.64834",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436084",
+                                            "cmpr_Dtl_Nm": "발린",
+                                            "cmpr_Dtl_Engl_Nm": "Valine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "0.21315",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        },
+                                        {
+                                            "cmpr_Dtl_Code": "436085",
+                                            "cmpr_Dtl_Nm": "1-메틸히스티딘",
+                                            "cmpr_Dtl_Engl_Nm": "1-Methylhistidine",
+                                            "sfe": null,
+                                            "prsiundo": null,
+                                            "in_Value": null,
+                                            "mouthresdng": "30.89914",
+                                            "ctmouthresdng": "0",
+                                            "f_Value": null,
+                                            "p_Value": null
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

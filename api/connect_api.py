@@ -41,6 +41,8 @@ def apiConnect(measure_Year,achl_Kind_Code, writer):
     param = {'serviceKey' : constant.serviceKey,'measure_Year' : measure_Year,'achl_Kind_Code':achl_Kind_Code}
     response = requests.get(constant.url,params=param)
 
+    print(constant.url)
+
     print(f"api response code : {response.status_code}")
 
     check_api_connect(response_status_code = response.status_code)

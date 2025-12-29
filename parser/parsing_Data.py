@@ -11,8 +11,12 @@ def parsing(writer):
         datas = json.load(f)
      
         item = parsing_Item(datas)
-        cmpr = parsing_cmpr_Item_List(datas)
-        cmpr_Dtl = parsing_cmpr_Dtl_List(datas)
+        cmpr = parsing_cmpr_Item_List(item,datas)
+        print(cmpr[0].cmpr_Item_Code)
+        cmpr_Item_Code_list = []
+        for i in cmpr:
+             cmpr_Item_Code_list.append(i.cmpr_Item_Code)
+        cmpr_Dtl = parsing_cmpr_Dtl_List(item, cmpr_Item_Code_list, datas)
         
         return item,cmpr,cmpr_Dtl
         
@@ -43,8 +47,10 @@ def parsing_Item(datas):
         return 0
     return item
 
-def parsing_cmpr_Item_List(datas):
+def parsing_cmpr_Item_List(item, datas):
 
+    measure_Year = item.measure_Year
+    achl_Kind_Code = item.achl_Kind_Code
     try:
         cmpr_Item_List = datas["response"]["body"]["items"]["item"]["cmpr_Item_List"]["item"]
         if isinstance(cmpr_Item_List, list):
@@ -56,31 +62,33 @@ def parsing_cmpr_Item_List(datas):
         cmpr_list:list[cmpr_Item] = list()
         for a in cmpr_Item_List:
             #print(a["cmpr_Item_Code"],a["cmpr_Item_Nm"])
-            cmpr_list.append(cmpr_Item(a["cmpr_Item_Code"],a["cmpr_Item_Nm"]))
+            cmpr_list.append(cmpr_Item(a["cmpr_Item_Code"],a["cmpr_Item_Nm"],measure_Year,achl_Kind_Code))
         
     except KeyError as e:
         print(f"KeyError 발생: {e}")  # 키 오류가 발생하면 출력
         return 0
     return cmpr_list
 
-def parsing_cmpr_Dtl_List(datas):
+def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
+    measure_Year = item.measure_Year
+    achl_Kind_Code = item.achl_Kind_Code
+
     try:
         cmpr_Dtl_List = datas["response"]["body"]["items"]["item"]["cmpr_Item_List"]["item"]
-        length = len(cmpr_Dtl_List)
-        
         
         if isinstance(cmpr_Dtl_List, list):
                 first_item = cmpr_Dtl_List[0]  # 리스트에서 첫 번째 항목 가져오기
         else:
                 first_item = cmpr_Dtl_List  # 만약 딕셔너리라면 그대로 사용
         dtl_list:list[cmpr_Dtl] = list()
-        for i in range(length):
+        for i in range(len(cmpr_Item_Code_List)):
             cmpr_Dtl_List2 = cmpr_Dtl_List[i]["cmpr_Dtl_List"]["item"]
             for a in cmpr_Dtl_List2:
                 # print(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
                 #                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"])
                 dtl_list.append(cmpr_Dtl(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
-                                         ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]))
+                                         ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]
+                                         ,i,measure_Year,achl_Kind_Code))
     except KeyError as e:
         print(f"KeyError 발생: {e}")  # 키 오류가 발생하면 출력
         return 0

@@ -49,7 +49,7 @@ def main():
         print(cmpr_Item_rowCount)
 
         for cmpr_Dtl in Dtl_List:
-            cmpr_Dtl_rowCount += Insert_Data.Insert_cmpr_Dtl(cur,Item,cmpr_Item,cmpr_Dtl,conn)
+            cmpr_Dtl_rowCount += Insert_Data.Insert_cmpr_Dtl(cur,cmpr_Item,cmpr_Dtl,conn)
         print(cmpr_Dtl_rowCount)
 
     conn.close()
