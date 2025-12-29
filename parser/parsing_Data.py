@@ -84,8 +84,6 @@ def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
         for i in range(len(cmpr_Item_Code_List)):
             cmpr_Dtl_List2 = cmpr_Dtl_List[i]["cmpr_Dtl_List"]["item"]
             for a in cmpr_Dtl_List2:
-                # print(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
-                #                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"])
                 dtl_list.append(cmpr_Dtl(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
                                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]
                                          ,i,measure_Year,achl_Kind_Code))
