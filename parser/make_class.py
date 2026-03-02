@@ -9,10 +9,10 @@ class Item:
 
 class cmpr_Item:
     def __init__(self, cmpr_Item_Code, cmpr_Item_Nm, measure_Year, achl_Kind_Code):
-        self.cmpr_Item_Code = int(cmpr_Item_Code)
+        self.cmpr_Item_Code = cmpr_Item_Code
         self.cmpr_Item_Nm = cmpr_Item_Nm
-        self.measure_Year = int(measure_Year)
-        self.achl_Kind_Code = int(achl_Kind_Code)
+        self.measure_Year = measure_Year
+        self.achl_Kind_Code = achl_Kind_Code
 
 
 class cmpr_Dtl:

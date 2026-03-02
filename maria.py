@@ -23,7 +23,7 @@ def main():
     ##결과 입력 함수 생성
     writer = FileWriter()
 
-    for code in range(435001,435002):
+    for code in range(435001,435006):
 
         print(f"{code}번 코드 처리중 ...")
 
@@ -44,13 +44,16 @@ def main():
 
         cmpr_Item_rowCount,cmpr_Dtl_rowCount=0,0
 
+        #cmpr_Item_rowCount = Insert_Data.cmpr_Item(cur,Item,cmpr_Item_List,conn)
+
         for cmpr_Item in cmpr_Item_List:
             cmpr_Item_rowCount += Insert_Data.Insert_cmpr_Item(cur,Item,cmpr_Item,conn)
-        print(cmpr_Item_rowCount)
+        print(f"cmpr_Item_rowCount: {cmpr_Item_rowCount}")
 
+        #cmpr_Dtl_rowCount = Insert_Data.Insert_cmpr_Dtl(cur,Item,Dtl_List,conn)
         for cmpr_Dtl in Dtl_List:
             cmpr_Dtl_rowCount += Insert_Data.Insert_cmpr_Dtl(cur,cmpr_Item,cmpr_Dtl,conn)
-        print(cmpr_Dtl_rowCount)
+        print(f"cmpr_Dtl_rowCount: {cmpr_Dtl_rowCount}")
 
     conn.close()
 
