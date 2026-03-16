@@ -13,9 +13,10 @@ def parsing(writer):
         item = parsing_Item(datas)
         cmpr = parsing_cmpr_Item_List(item,datas)
         print(cmpr[0].cmpr_Item_Code)
-        cmpr_Item_Code_list = []
+        cmpr_Item_Code_list = [] ## 436001, 436002, 436003, 436004, 436005
         for i in cmpr:
              cmpr_Item_Code_list.append(i.cmpr_Item_Code)
+        print(f"cmpr_Item_Code_list: {cmpr_Item_Code_list}")
         cmpr_Dtl = parsing_cmpr_Dtl_List(item, cmpr_Item_Code_list, datas)
         
         return item,cmpr,cmpr_Dtl
@@ -83,10 +84,11 @@ def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
         dtl_list:list[cmpr_Dtl] = list()
         for i in range(len(cmpr_Item_Code_List)):
             cmpr_Dtl_List2 = cmpr_Dtl_List[i]["cmpr_Dtl_List"]["item"]
+            print(f"cmpr_Dtl_List2: {cmpr_Dtl_List2}")
             for a in cmpr_Dtl_List2:
                 dtl_list.append(cmpr_Dtl(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
                                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]
-                                         ,i,measure_Year,achl_Kind_Code))
+                                         ,cmpr_Item_Code_List[i],measure_Year,achl_Kind_Code))
     except KeyError as e:
         print(f"KeyError 발생: {e}")  # 키 오류가 발생하면 출력
         return 0

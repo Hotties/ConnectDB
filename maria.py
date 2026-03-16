@@ -36,6 +36,9 @@ def main():
 
         ## 데이터 파싱 
         Item,cmpr_Item_List,Dtl_List = parsing_Data.parsing(writer)
+
+        # for i in Dtl_List:  
+        #     print(f"Item: {i.__dict__}")
         
         ## 데이터 삽입
         Item_rowCount = Insert_Data.Insert_Item(cur,Item,conn)
@@ -52,7 +55,7 @@ def main():
 
         #cmpr_Dtl_rowCount = Insert_Data.Insert_cmpr_Dtl(cur,Item,Dtl_List,conn)
         for cmpr_Dtl in Dtl_List:
-            cmpr_Dtl_rowCount += Insert_Data.Insert_cmpr_Dtl(cur,cmpr_Item,cmpr_Dtl,conn)
+            cmpr_Dtl_rowCount += Insert_Data.Insert_cmpr_Dtl(cur,cmpr_Dtl,conn)
         print(f"cmpr_Dtl_rowCount: {cmpr_Dtl_rowCount}")
 
     conn.close()

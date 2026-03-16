@@ -45,6 +45,6 @@ def create_Dtl_List(cur: pymysql.cursors.Cursor):
             achl_Kind_Code INT,
             FOREIGN KEY (cmpr_Item_Code, measure_Year)
                 REFERENCES CMPR_ITEM_LIST(cmpr_Item_Code, measure_Year),
-            PRIMARY KEY (cmpr_Dtl_Code, cmpr_Item_Code, measure_Year)
+            PRIMARY KEY (cmpr_Dtl_Code, cmpr_Item_Code, measure_Year, achl_Kind_Code)
         )
     """)

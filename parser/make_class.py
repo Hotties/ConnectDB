@@ -31,6 +31,7 @@ class cmpr_Dtl:
         self.ctmouthresdng = float(ctmouthresdng) if ctmouthresdng else None
         self.f_Value = float(f_Value) if f_Value else None
         self.p_Value = float(p_Value) if p_Value else None
+        
         self.cmpr_Item_Code = int(cmpr_Item_Code)
         self.measure_Year = int(measure_Year)
         self.achl_Kind_Code = int(achl_Kind_Code)

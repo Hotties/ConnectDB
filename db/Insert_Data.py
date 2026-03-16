@@ -44,7 +44,7 @@ def Insert_cmpr_Item(cur: pymysql.cursors.Cursor, _Item: Item, _cmpr_Item: list[
     except pymysql.MySQLError as e:
         raise InsertError(f"[Insert_cmpr_Item] DB 삽입 실패: {e}")
     
-def Insert_cmpr_Dtl(cur: pymysql.cursors.Cursor, _cmprItem: cmpr_Item, _cmprDtl: list[cmpr_Dtl], conn: pymysql.Connection):
+def Insert_cmpr_Dtl(cur: pymysql.cursors.Cursor, _cmprDtl: cmpr_Dtl, conn: pymysql.Connection):
     query = """
         INSERT IGNORE INTO CMPR_DTL_LIST
         (cmpr_Dtl_Code, cmpr_Dtl_Nm, cmpr_Dtl_Engl_Nm, sfe, prsiundo, in_Value,
@@ -52,9 +52,9 @@ def Insert_cmpr_Dtl(cur: pymysql.cursors.Cursor, _cmprItem: cmpr_Item, _cmprDtl:
          cmpr_Item_Code, measure_Year, achl_Kind_Code)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
-    cmpr_item_code = _cmprItem.cmpr_Item_Code
-    cmpr_measure_year = _cmprItem.measure_Year
-    cmpr_achl_kind_code = _cmprItem.achl_Kind_Code
+    cmpr_item_code = _cmprDtl.cmpr_Item_Code
+    cmpr_measure_year = _cmprDtl.measure_Year
+    cmpr_achl_kind_code = _cmprDtl.achl_Kind_Code
 
     try:
         cur.execute(query, (
