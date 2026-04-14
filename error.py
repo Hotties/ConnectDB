@@ -12,10 +12,6 @@ class ApiConnectError(ApiError):
     def __init__(self, status_code):
         super().__init__(f"API 연결 실패: HTTP 상태 코드 {status_code}")
 
-class ApiResponseError(ApiError):
-    """Raised when API response contains logical errors (e.g. no data, result_Code != '00')."""
-    def __init__(self, code, msg):
-        super().__init__(f"API 응답 오류: 코드 {code}, 메시지 '{msg}'")
 
 # 데이터 파싱 관련 에러
 class DataParsingError(Exception):

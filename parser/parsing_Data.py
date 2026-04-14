@@ -1,4 +1,5 @@
 import json
+from error import DataParsingError
 from parser.make_class import Item,cmpr_Item,cmpr_Dtl
 import api.connect_api as connect_api
 
@@ -43,8 +44,8 @@ def parsing_Item(datas):
 
         print(item.__dict__)  # 객체 정보를 출력
         
-    except KeyError as e:
-        print(f"KeyError 발생1: {e}")  # 키 오류가 발생하면 출력
+    except DataParsingError as e:
+        print(f"DataParsingError 발생1: {e}")  # 데이터 파싱 오류가 발생하면 출력
         return 0
     return item
 
@@ -65,8 +66,8 @@ def parsing_cmpr_Item_List(item, datas):
             #print(a["cmpr_Item_Code"],a["cmpr_Item_Nm"])
             cmpr_list.append(cmpr_Item(a["cmpr_Item_Code"],a["cmpr_Item_Nm"],measure_Year,achl_Kind_Code))
         
-    except KeyError as e:
-        print(f"KeyError 발생: {e}")  # 키 오류가 발생하면 출력
+    except DataParsingError as e:
+        print(f"DataParsingError 발생: {e}")  # 데이터 파싱 오류가 발생하면 출력
         return 0
     return cmpr_list
 
@@ -89,7 +90,7 @@ def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
                 dtl_list.append(cmpr_Dtl(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
                                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]
                                          ,cmpr_Item_Code_List[i],measure_Year,achl_Kind_Code))
-    except KeyError as e:
-        print(f"KeyError 발생: {e}")  # 키 오류가 발생하면 출력
+    except DataParsingError as e:
+        print(f"DataParsingError 발생: {e}")  # 데이터 파싱 오류가 발생하면 출력
         return 0
     return dtl_list
