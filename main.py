@@ -1,12 +1,12 @@
 
 
 import pymysql.cursors
-import api.connect_api as connect_api
-import parser.parsing_Data as parsing_Data
+import api.Connect_Api as connect_api
+import parser.Parsing_Data as parsing_Data
 from db.Connect_Db import db_Connect
 import db.Create_Table as Create_Table
 import db.Insert_Data as Insert_Data
-from api.file_writer import FileWriter
+from api.File_Writer import FileWriter
 
 def main():
 
