@@ -1,7 +1,6 @@
 import pymysql
-from parser.make_class import Item, cmpr_Item, cmpr_Dtl
+from parser.Make_Class import Item, cmpr_Item, cmpr_Dtl
 from error import InsertError
-from typing import List
 
 def Insert_Item(cur: pymysql.cursors.Cursor, _Item: Item, conn: pymysql.Connection):
     try:

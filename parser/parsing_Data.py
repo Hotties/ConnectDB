@@ -1,7 +1,6 @@
 import json
 from error import DataParsingError
-from parser.make_class import Item,cmpr_Item,cmpr_Dtl
-import api.connect_api as connect_api
+from parser.Make_Class import Item,cmpr_Item,cmpr_Dtl
 
 def parsing(writer):
     
