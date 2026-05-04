@@ -13,6 +13,11 @@ class ApiConnectError(ApiError):
         super().__init__(f"API 연결 실패: HTTP 상태 코드 {status_code}")
 
 
+class APIResponseError(ApiError):
+    """Raised when API response contains an error code."""
+    def __init__(self, code, msg):
+        super().__init__(f"API 응답 오류: 코드 {code}, 메시지: {msg}")
+
 # 데이터 파싱 관련 에러
 class DataParsingError(Exception):
     """Raised when data parsing fails due to unexpected structure or missing fields."""

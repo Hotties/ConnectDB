@@ -23,7 +23,7 @@ def main():
     ##결과 입력 함수 생성
     writer = FileWriter()
 
-    for code in range(435001,435006):
+    for code in range(435001,435002):
 
         print(f"{code}번 코드 처리중 ...")
 
