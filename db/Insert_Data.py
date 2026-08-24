@@ -22,10 +22,7 @@ def Insert_Item(cur: pymysql.cursors.Cursor, _Item: Item, conn: pymysql.Connecti
         raise InsertError(f"[Insert_Item] DB 삽입 실패: {e}")
 
 def Insert_cmpr_Item(cur: pymysql.cursors.Cursor, _Item: Item, _cmpr_Item: list[cmpr_Item], conn: pymysql.Connection):
-    
-    cmpr_measure_year = _cmpr_Item.measure_Year
-    cmpr_achl_kind_code = _cmpr_Item.achl_Kind_Code
-    
+   
     query = """
         INSERT IGNORE INTO CMPR_ITEM_LIST
         (cmpr_Item_Code, cmpr_Item_Nm, measure_Year, achl_Kind_Code)

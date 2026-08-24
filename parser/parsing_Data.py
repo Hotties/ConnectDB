@@ -11,13 +11,16 @@ def parsing(writer):
         datas = json.load(f)
      
         item = parsing_Item(datas)
-        cmpr = parsing_cmpr_Item_List(item,datas)
+        measure_Year = item.measure_Year
+        achl_Kind_Code = item.achl_Kind_Code
+        
+        cmpr = parsing_cmpr_Item_List(measure_Year, achl_Kind_Code, datas)
         print(cmpr[0].cmpr_Item_Code)
         cmpr_Item_Code_list = [] ## 436001, 436002, 436003, 436004, 436005
         for i in cmpr:
              cmpr_Item_Code_list.append(i.cmpr_Item_Code)
-        print(f"cmpr_Item_Code_list: {cmpr_Item_Code_list}")
-        cmpr_Dtl = parsing_cmpr_Dtl_List(item, cmpr_Item_Code_list, datas)
+        #print(f"cmpr_Item_Code_list: {cmpr_Item_Code_list}")
+        cmpr_Dtl = parsing_cmpr_Dtl_List(measure_Year, achl_Kind_Code, cmpr_Item_Code_list, datas)
         
         return item,cmpr,cmpr_Dtl
         
@@ -32,7 +35,7 @@ def parsing_Item(datas):
                 first_item = item_List[0]  # 리스트에서 첫 번째 항목 가져오기
         else:
                 first_item = item_List  # 만약 딕셔너리라면 그대로 사용
-        print(first_item["measure_Year"])
+        #print(first_item["measure_Year"])
             # Item 객체 생성
         item = Item(first_item["measure_Year"],
                     first_item["achl_Kind_Code"],
@@ -41,17 +44,15 @@ def parsing_Item(datas):
                     first_item["sample_Rm"])
         
 
-        print(item.__dict__)  # 객체 정보를 출력
+        #print(item.__dict__)  # 객체 정보를 출력
         
     except DataParsingError as e:
         print(f"DataParsingError 발생1: {e}")  # 데이터 파싱 오류가 발생하면 출력
         return 0
     return item
 
-def parsing_cmpr_Item_List(item, datas):
+def parsing_cmpr_Item_List(measure_Year, achl_Kind_Code, datas):
 
-    measure_Year = item.measure_Year
-    achl_Kind_Code = item.achl_Kind_Code
     try:
         cmpr_Item_List = datas["response"]["body"]["items"]["item"]["cmpr_Item_List"]["item"]
         if isinstance(cmpr_Item_List, list):
@@ -70,9 +71,7 @@ def parsing_cmpr_Item_List(item, datas):
         return 0
     return cmpr_list
 
-def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
-    measure_Year = item.measure_Year
-    achl_Kind_Code = item.achl_Kind_Code
+def parsing_cmpr_Dtl_List(measure_Year, achl_Kind_Code, cmpr_Item_Code_List, datas):
 
     try:
         cmpr_Dtl_List = datas["response"]["body"]["items"]["item"]["cmpr_Item_List"]["item"]
@@ -84,7 +83,7 @@ def parsing_cmpr_Dtl_List(item, cmpr_Item_Code_List, datas):
         dtl_list:list[cmpr_Dtl] = list()
         for i in range(len(cmpr_Item_Code_List)):
             cmpr_Dtl_List2 = cmpr_Dtl_List[i]["cmpr_Dtl_List"]["item"]
-            print(f"cmpr_Dtl_List2: {cmpr_Dtl_List2}")
+            #print(f"cmpr_Dtl_List2: {cmpr_Dtl_List2}")
             for a in cmpr_Dtl_List2:
                 dtl_list.append(cmpr_Dtl(a["cmpr_Dtl_Code"],a["cmpr_Dtl_Nm"],a["cmpr_Dtl_Engl_Nm"],a["sfe"],a["prsiundo"]
                                          ,a["in_Value"],a["mouthresdng"],a["ctmouthresdng"],a["f_Value"],a["p_Value"]

@@ -7,11 +7,11 @@
         "body": {
             "items": {
                 "item": {
-                    "measure_Year": "2015",
+                    "measure_Year": "2014",
                     "achl_Kind_Code": "435001",
                     "achl_Kind_Nm": "생막걸리",
-                    "sample_Cnt": "34",
-                    "sample_Rm": "입상주 4, 비입상주 30",
+                    "sample_Cnt": "15",
+                    "sample_Rm": "입상주 4, 비입상주 11",
                     "cmpr_Item_List": {
                         "item": [
                             {
@@ -26,10 +26,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "7.09",
-                                            "ctmouthresdng": "7.47",
-                                            "f_Value": "10.92",
-                                            "p_Value": "0.641"
+                                            "mouthresdng": "5.93",
+                                            "ctmouthresdng": "5.33",
+                                            "f_Value": "4.52",
+                                            "p_Value": "0.036"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436007",
@@ -38,10 +38,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "3.97",
-                                            "ctmouthresdng": "3.73",
-                                            "f_Value": "4.68",
-                                            "p_Value": "0.06"
+                                            "mouthresdng": "3.76",
+                                            "ctmouthresdng": "3.77",
+                                            "f_Value": "0.06",
+                                            "p_Value": "0.814"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436008",
@@ -50,10 +50,10 @@
                                             "sfe": "산도 X 0.0064(citric acid) X 10",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.4",
-                                            "ctmouthresdng": "0.43",
-                                            "f_Value": "4.93",
-                                            "p_Value": "0.157"
+                                            "mouthresdng": "0.29",
+                                            "ctmouthresdng": "0.26",
+                                            "f_Value": "3.52",
+                                            "p_Value": "0.064"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436009",
@@ -62,10 +62,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.31",
-                                            "ctmouthresdng": "0.2",
-                                            "f_Value": "1.9",
-                                            "p_Value": "0.453"
+                                            "mouthresdng": "0.44",
+                                            "ctmouthresdng": "0.11",
+                                            "f_Value": "32.62",
+                                            "p_Value": "0"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436010",
@@ -74,10 +74,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "1.3",
-                                            "ctmouthresdng": "0.34",
-                                            "f_Value": "22.31",
-                                            "p_Value": "0.042"
+                                            "mouthresdng": "1.21",
+                                            "ctmouthresdng": "0.43",
+                                            "f_Value": "33.75",
+                                            "p_Value": "0"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436011",
@@ -86,10 +86,10 @@
                                             "sfe": "아미노산도 X0.0075(glycine) X 10",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.24",
-                                            "ctmouthresdng": "0.15",
-                                            "f_Value": "10.47",
-                                            "p_Value": "0.148"
+                                            "mouthresdng": "0.09",
+                                            "ctmouthresdng": "0.09",
+                                            "f_Value": "0.12",
+                                            "p_Value": "0.731"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436012",
@@ -98,10 +98,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "8.26",
-                                            "ctmouthresdng": "6.92",
-                                            "f_Value": "1.02",
-                                            "p_Value": "0.462"
+                                            "mouthresdng": "4.47",
+                                            "ctmouthresdng": "3.48",
+                                            "f_Value": "19.3",
+                                            "p_Value": "0"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436013",
@@ -110,10 +110,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "99.8",
-                                            "ctmouthresdng": "92.48",
-                                            "f_Value": "0.66",
-                                            "p_Value": "0.737"
+                                            "mouthresdng": "0.21",
+                                            "ctmouthresdng": "0.28",
+                                            "f_Value": "4.47",
+                                            "p_Value": "0.04"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436014",
@@ -122,10 +122,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "32.45",
-                                            "ctmouthresdng": "32.31",
-                                            "f_Value": "3.19",
-                                            "p_Value": "0.344"
+                                            "mouthresdng": "31.69",
+                                            "ctmouthresdng": "32.1",
+                                            "f_Value": "29.52",
+                                            "p_Value": "0"
                                         }
                                     ]
                                 }
@@ -142,10 +142,10 @@
                                             "sfe": "식초맛",
                                             "prsiundo": null,
                                             "in_Value": "45",
-                                            "mouthresdng": "129.06",
-                                            "ctmouthresdng": "82.48",
-                                            "f_Value": "0.53",
-                                            "p_Value": "0.006"
+                                            "mouthresdng": "8.16",
+                                            "ctmouthresdng": "15.73",
+                                            "f_Value": "1.92",
+                                            "p_Value": "0.387"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436016",
@@ -154,10 +154,10 @@
                                             "sfe": "부드럽고 상쾌한 신맛",
                                             "prsiundo": null,
                                             "in_Value": "78",
-                                            "mouthresdng": "36.43",
-                                            "ctmouthresdng": "82.05",
-                                            "f_Value": "6.75",
-                                            "p_Value": "0.011"
+                                            "mouthresdng": "35.44",
+                                            "ctmouthresdng": "19.61",
+                                            "f_Value": "3.4",
+                                            "p_Value": "0.313"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436017",
@@ -166,10 +166,10 @@
                                             "sfe": "수렴성 신맛",
                                             "prsiundo": null,
                                             "in_Value": "140",
-                                            "mouthresdng": "5.56",
-                                            "ctmouthresdng": "4.32",
-                                            "f_Value": "0.74",
-                                            "p_Value": "0.538"
+                                            "mouthresdng": "2.87",
+                                            "ctmouthresdng": "0.94",
+                                            "f_Value": "21.43",
+                                            "p_Value": "0.117"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436018",
@@ -178,10 +178,10 @@
                                             "sfe": "부드러운 신맛",
                                             "prsiundo": null,
                                             "in_Value": "65",
-                                            "mouthresdng": "273.42",
-                                            "ctmouthresdng": "162.07",
-                                            "f_Value": "0.53",
-                                            "p_Value": "0.037"
+                                            "mouthresdng": "22.57",
+                                            "ctmouthresdng": "54.51",
+                                            "f_Value": "2.84",
+                                            "p_Value": "0.118"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436019",
@@ -190,10 +190,10 @@
                                             "sfe": "상쾌한 신맛",
                                             "prsiundo": null,
                                             "in_Value": "72",
-                                            "mouthresdng": "15.94",
-                                            "ctmouthresdng": "25.3",
-                                            "f_Value": "0.89",
-                                            "p_Value": "0.574"
+                                            "mouthresdng": "4.29",
+                                            "ctmouthresdng": "3.85",
+                                            "f_Value": "0.74",
+                                            "p_Value": "0.894"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436020",
@@ -202,10 +202,10 @@
                                             "sfe": "짠맛, 쓴맛, 신맛의 복합",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "8.76",
-                                            "ctmouthresdng": "9.35",
-                                            "f_Value": "0.8",
-                                            "p_Value": "0.863"
+                                            "mouthresdng": "7.97",
+                                            "ctmouthresdng": "12.22",
+                                            "f_Value": "2.68",
+                                            "p_Value": "0.038"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436021",
@@ -214,10 +214,10 @@
                                             "sfe": "감칠맛",
                                             "prsiundo": null,
                                             "in_Value": "90-100",
-                                            "mouthresdng": "0.49",
-                                            "ctmouthresdng": "14.96",
-                                            "f_Value": "13.82",
-                                            "p_Value": "0"
+                                            "mouthresdng": "2.18",
+                                            "ctmouthresdng": "5.95",
+                                            "f_Value": "1.97",
+                                            "p_Value": "0.498"
                                         }
                                     ]
                                 }
@@ -234,10 +234,10 @@
                                             "sfe": null,
                                             "prsiundo": "60",
                                             "in_Value": null,
-                                            "mouthresdng": "0.06",
+                                            "mouthresdng": "0.54",
                                             "ctmouthresdng": "0.17",
-                                            "f_Value": "5.76",
-                                            "p_Value": "0.001"
+                                            "f_Value": "4.54",
+                                            "p_Value": "0.084"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436023",
@@ -246,10 +246,10 @@
                                             "sfe": null,
                                             "prsiundo": "100-173",
                                             "in_Value": null,
-                                            "mouthresdng": "0.42",
-                                            "ctmouthresdng": "5.88",
-                                            "f_Value": "3.3",
-                                            "p_Value": "0.322"
+                                            "mouthresdng": "0.14",
+                                            "ctmouthresdng": "0.09",
+                                            "f_Value": "0.63",
+                                            "p_Value": "0.319"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436024",
@@ -258,10 +258,10 @@
                                             "sfe": null,
                                             "prsiundo": "50-74",
                                             "in_Value": null,
-                                            "mouthresdng": "0.32",
-                                            "ctmouthresdng": "0.49",
-                                            "f_Value": "0.98",
-                                            "p_Value": "0.697"
+                                            "mouthresdng": "0.14",
+                                            "ctmouthresdng": "0.09",
+                                            "f_Value": "6.77",
+                                            "p_Value": "0.249"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436025",
@@ -270,10 +270,10 @@
                                             "sfe": null,
                                             "prsiundo": "48",
                                             "in_Value": null,
-                                            "mouthresdng": "0.66",
-                                            "ctmouthresdng": "0.75",
-                                            "f_Value": "1.98",
-                                            "p_Value": "0.825"
+                                            "mouthresdng": "0.24",
+                                            "ctmouthresdng": "0.07",
+                                            "f_Value": "8.6",
+                                            "p_Value": "0.256"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436026",
@@ -282,10 +282,10 @@
                                             "sfe": null,
                                             "prsiundo": "50-60",
                                             "in_Value": null,
-                                            "mouthresdng": "0.04",
-                                            "ctmouthresdng": "0.25",
-                                            "f_Value": "0.96",
-                                            "p_Value": "0.548"
+                                            "mouthresdng": "0.15",
+                                            "ctmouthresdng": "0.08",
+                                            "f_Value": "1.93",
+                                            "p_Value": "0.512"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436027",
@@ -294,10 +294,10 @@
                                             "sfe": null,
                                             "prsiundo": "50-60",
                                             "in_Value": null,
-                                            "mouthresdng": "0.16",
-                                            "ctmouthresdng": "0.33",
-                                            "f_Value": "1.43",
-                                            "p_Value": "0.515"
+                                            "mouthresdng": "0.11",
+                                            "ctmouthresdng": "0.1",
+                                            "f_Value": "0.44",
+                                            "p_Value": "0.915"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436028",
@@ -306,10 +306,10 @@
                                             "sfe": null,
                                             "prsiundo": "50-60",
                                             "in_Value": null,
-                                            "mouthresdng": "0",
-                                            "ctmouthresdng": "0.01",
-                                            "f_Value": "1.08",
-                                            "p_Value": "0.511"
+                                            "mouthresdng": "0.12",
+                                            "ctmouthresdng": "0.1",
+                                            "f_Value": "1.25",
+                                            "p_Value": "0.751"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436029",
@@ -318,10 +318,10 @@
                                             "sfe": null,
                                             "prsiundo": "60",
                                             "in_Value": null,
-                                            "mouthresdng": "0.23",
-                                            "ctmouthresdng": "0.33",
-                                            "f_Value": "0.56",
-                                            "p_Value": "0.797"
+                                            "mouthresdng": "0.1",
+                                            "ctmouthresdng": "0.07",
+                                            "f_Value": "3.28",
+                                            "p_Value": "0.265"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436030",
@@ -330,10 +330,10 @@
                                             "sfe": null,
                                             "prsiundo": "100",
                                             "in_Value": null,
-                                            "mouthresdng": "0.34",
-                                            "ctmouthresdng": "0.15",
-                                            "f_Value": "1.28",
-                                            "p_Value": "0.244"
+                                            "mouthresdng": "0.99",
+                                            "ctmouthresdng": "0.14",
+                                            "f_Value": "12.63",
+                                            "p_Value": "0.3"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436031",
@@ -342,10 +342,10 @@
                                             "sfe": null,
                                             "prsiundo": "40",
                                             "in_Value": null,
-                                            "mouthresdng": "9.61",
-                                            "ctmouthresdng": "2.19",
-                                            "f_Value": "9.71",
-                                            "p_Value": "0.17"
+                                            "mouthresdng": "0.12",
+                                            "ctmouthresdng": "0.05",
+                                            "f_Value": "3.62",
+                                            "p_Value": "0.042"
                                         }
                                     ]
                                 }
@@ -374,7 +374,7 @@
                                             "sfe": "식초향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "733.69",
+                                            "mouthresdng": "0",
                                             "ctmouthresdng": "0",
                                             "f_Value": null,
                                             "p_Value": null
@@ -386,10 +386,10 @@
                                             "sfe": "알코올향, 단향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "180.2",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "135.75",
+                                            "ctmouthresdng": "96.39",
+                                            "f_Value": "1.13",
+                                            "p_Value": "0.143"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436035",
@@ -398,10 +398,10 @@
                                             "sfe": "알코올향, 바나나향, 단내",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.46",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "4.18",
+                                            "ctmouthresdng": "4.07",
+                                            "f_Value": "0.04",
+                                            "p_Value": "0.957"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436036",
@@ -410,10 +410,10 @@
                                             "sfe": "알코올향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "88.44",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "105.37",
+                                            "ctmouthresdng": "121.44",
+                                            "f_Value": "2.39",
+                                            "p_Value": "0.528"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436037",
@@ -422,10 +422,10 @@
                                             "sfe": "블쾌한 향, 간장향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "10.89",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "5.06",
+                                            "ctmouthresdng": "7.07",
+                                            "f_Value": "0.09",
+                                            "p_Value": "0.406"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436038",
@@ -434,10 +434,10 @@
                                             "sfe": "에테르향, 과일향, 바나나향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "116.06",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "3.22",
+                                            "ctmouthresdng": "7.92",
+                                            "f_Value": "1.39",
+                                            "p_Value": "0.474"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436039",
@@ -446,10 +446,10 @@
                                             "sfe": "꼬냑향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0",
-                                            "ctmouthresdng": "0",
+                                            "mouthresdng": "76.04",
+                                            "ctmouthresdng": "80.18",
                                             "f_Value": null,
-                                            "p_Value": null
+                                            "p_Value": "0.842"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436040",
@@ -482,10 +482,10 @@
                                             "sfe": "탄내, 자극취",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "4.16",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "1.78",
+                                            "ctmouthresdng": "0.65",
+                                            "f_Value": "4.28",
+                                            "p_Value": "0.174"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436043",
@@ -494,10 +494,10 @@
                                             "sfe": "신선한 과일향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "3.32",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "4.55",
+                                            "ctmouthresdng": "7.3",
+                                            "f_Value": "3.39",
+                                            "p_Value": "0.246"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436044",
@@ -518,10 +518,10 @@
                                             "sfe": "절임식품향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "125.02",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "36.27",
+                                            "ctmouthresdng": "2",
+                                            "f_Value": "24",
+                                            "p_Value": "0.332"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436046",
@@ -530,10 +530,10 @@
                                             "sfe": "장미향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "81.71",
-                                            "ctmouthresdng": "0",
+                                            "mouthresdng": "61.88",
+                                            "ctmouthresdng": "108.77",
                                             "f_Value": null,
-                                            "p_Value": null
+                                            "p_Value": "0.027"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436047",
@@ -542,10 +542,10 @@
                                             "sfe": "약한 알코올향",
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "78.31",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "66.28",
+                                            "ctmouthresdng": "108.31",
+                                            "f_Value": "2.67",
+                                            "p_Value": "0.216"
                                         }
                                     ]
                                 }
@@ -562,10 +562,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "129.067",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "48.9",
+                                            "ctmouthresdng": "68.61",
+                                            "f_Value": "1.09",
+                                            "p_Value": "0.306"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436049",
@@ -574,10 +574,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "34.7016",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "15.93",
+                                            "ctmouthresdng": "16.7",
+                                            "f_Value": "0.09",
+                                            "p_Value": "0.905"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436050",
@@ -586,10 +586,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.10636",
+                                            "mouthresdng": "4.62",
                                             "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "f_Value": "28.6",
+                                            "p_Value": "0.391"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436051",
@@ -598,10 +598,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "129.8934",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "83.99",
+                                            "ctmouthresdng": "70.77",
+                                            "f_Value": "4.26",
+                                            "p_Value": "0.672"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436052",
@@ -610,10 +610,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "126.9886",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "27.8",
+                                            "ctmouthresdng": "21.88",
+                                            "f_Value": "6.68",
+                                            "p_Value": "0.723"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436053",
@@ -622,10 +622,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "2.34803",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "2.98",
+                                            "ctmouthresdng": "0.43",
+                                            "f_Value": "12.74",
+                                            "p_Value": "0.057"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436054",
@@ -634,10 +634,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "8.453645",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "322.64",
+                                            "ctmouthresdng": "318.28",
+                                            "f_Value": "4.51",
+                                            "p_Value": "0.982"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436055",
@@ -646,10 +646,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "6.732166",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "5.1",
+                                            "ctmouthresdng": "0.85",
+                                            "f_Value": "5.98",
+                                            "p_Value": "0.17"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436056",
@@ -658,10 +658,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "35.89727",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "13.74",
+                                            "ctmouthresdng": "1.9",
+                                            "f_Value": "22.56",
+                                            "p_Value": "0.271"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436057",
@@ -670,10 +670,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "81.558",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "12.46",
+                                            "ctmouthresdng": "12.9",
+                                            "f_Value": "2.97",
+                                            "p_Value": "0.911"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436058",
@@ -682,10 +682,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "8.780546",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "2.02",
+                                            "ctmouthresdng": "11.07",
+                                            "f_Value": "78.46",
+                                            "p_Value": "0.048"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436059",
@@ -694,10 +694,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.077394",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "7.21",
+                                            "ctmouthresdng": "4.27",
+                                            "f_Value": "2.05",
+                                            "p_Value": "0.411"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436060",
@@ -706,10 +706,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "6.324088",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "5.69",
+                                            "ctmouthresdng": "6.96",
+                                            "f_Value": "1.42",
+                                            "p_Value": "0.705"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436061",
@@ -718,10 +718,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "10.07005",
-                                            "ctmouthresdng": "0",
+                                            "mouthresdng": "17.89",
+                                            "ctmouthresdng": "8.69",
                                             "f_Value": null,
-                                            "p_Value": null
+                                            "p_Value": "0.1"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436062",
@@ -730,10 +730,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "4.165504",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "34.37",
+                                            "ctmouthresdng": "2.9",
+                                            "f_Value": "27.59",
+                                            "p_Value": "0.395"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436063",
@@ -742,10 +742,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "3.942587",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "40.51",
+                                            "ctmouthresdng": "29.56",
+                                            "f_Value": "7.81",
+                                            "p_Value": "0.669"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436064",
@@ -754,10 +754,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "145.9104",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "26.22",
+                                            "ctmouthresdng": "27.95",
+                                            "f_Value": "2.63",
+                                            "p_Value": "0.815"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436065",
@@ -766,10 +766,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "69.43535",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "16.59",
+                                            "ctmouthresdng": "15.61",
+                                            "f_Value": "4.42",
+                                            "p_Value": "0.833"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436066",
@@ -778,10 +778,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "29.28164",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "5.97",
+                                            "ctmouthresdng": "4.09",
+                                            "f_Value": "19.7",
+                                            "p_Value": "0.472"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436067",
@@ -790,10 +790,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.198601",
+                                            "mouthresdng": "6.68",
                                             "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "f_Value": "28.6",
+                                            "p_Value": "0.391"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436068",
@@ -802,10 +802,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.810876",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "44.58",
+                                            "ctmouthresdng": "18.02",
+                                            "f_Value": "77.89",
+                                            "p_Value": "0.262"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436069",
@@ -814,10 +814,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "57.12074",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "69.24",
+                                            "ctmouthresdng": "38.98",
+                                            "f_Value": "7.43",
+                                            "p_Value": "0.129"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436070",
@@ -826,10 +826,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "139.6189",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "38.74",
+                                            "ctmouthresdng": "32.81",
+                                            "f_Value": "2.24",
+                                            "p_Value": "0.603"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436071",
@@ -838,10 +838,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "99.19246",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "22.38",
+                                            "ctmouthresdng": "8.28",
+                                            "f_Value": "30.34",
+                                            "p_Value": "0.264"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436072",
@@ -850,10 +850,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.023434",
+                                            "mouthresdng": "2.7",
                                             "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "f_Value": "28.6",
+                                            "p_Value": "0.098"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436073",
@@ -862,10 +862,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.013169",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "11.17",
+                                            "ctmouthresdng": "20.5",
+                                            "f_Value": "0.98",
+                                            "p_Value": "0.203"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436074",
@@ -874,10 +874,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "68.50741",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "44.07",
+                                            "ctmouthresdng": "30.75",
+                                            "f_Value": "13.49",
+                                            "p_Value": "0.646"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436075",
@@ -886,10 +886,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "97.32923",
+                                            "mouthresdng": "8.73",
                                             "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "f_Value": "28.6",
+                                            "p_Value": "0.391"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436076",
@@ -898,10 +898,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "2.3974",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "37.33",
+                                            "ctmouthresdng": "28.09",
+                                            "f_Value": "1.31",
+                                            "p_Value": "0.423"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436077",
@@ -910,10 +910,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "6.381877",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "33.41",
+                                            "ctmouthresdng": "50.51",
+                                            "f_Value": "0.05",
+                                            "p_Value": "0.218"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436078",
@@ -922,10 +922,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "94.00728",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "3.89",
+                                            "ctmouthresdng": "0.74",
+                                            "f_Value": "9.74",
+                                            "p_Value": "0.319"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436079",
@@ -934,10 +934,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.057805",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "22.11",
+                                            "ctmouthresdng": "16.54",
+                                            "f_Value": "12.57",
+                                            "p_Value": "0.685"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436080",
@@ -946,10 +946,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "66.61716",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "4.12",
+                                            "ctmouthresdng": "5.27",
+                                            "f_Value": "0.7",
+                                            "p_Value": "0.49"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436081",
@@ -958,10 +958,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "27.44",
+                                            "ctmouthresdng": "9.61",
+                                            "f_Value": "33.53",
+                                            "p_Value": "0.282"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436082",
@@ -970,10 +970,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "39.70663",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "63.17",
+                                            "ctmouthresdng": "21.61",
+                                            "f_Value": "114.12",
+                                            "p_Value": "0.203"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436083",
@@ -982,10 +982,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "74.64834",
+                                            "mouthresdng": "20.85",
                                             "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "f_Value": "28.6",
+                                            "p_Value": "0.391"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436084",
@@ -994,10 +994,10 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "0.21315",
-                                            "ctmouthresdng": "0",
-                                            "f_Value": null,
-                                            "p_Value": null
+                                            "mouthresdng": "48.94",
+                                            "ctmouthresdng": "28.04",
+                                            "f_Value": "11.3",
+                                            "p_Value": "0.442"
                                         },
                                         {
                                             "cmpr_Dtl_Code": "436085",
@@ -1006,7 +1006,7 @@
                                             "sfe": null,
                                             "prsiundo": null,
                                             "in_Value": null,
-                                            "mouthresdng": "30.89914",
+                                            "mouthresdng": "0",
                                             "ctmouthresdng": "0",
                                             "f_Value": null,
                                             "p_Value": null

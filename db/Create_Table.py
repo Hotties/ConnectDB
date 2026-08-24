@@ -1,3 +1,5 @@
+from enum import UNIQUE
+
 import pymysql.cursors
 
 def create_Item(cur: pymysql.cursors.Cursor):
@@ -21,11 +23,9 @@ def create_cmpr_Item_List(cur: pymysql.cursors.Cursor):
             achl_Kind_Code INT,
             FOREIGN KEY (measure_Year, achl_Kind_Code)
                 REFERENCES ITEM(measure_Year, achl_Kind_Code),
-            PRIMARY KEY (cmpr_Item_Code, measure_Year, achl_Kind_Code),
-            UNIQUE (cmpr_Item_Code, measure_Year)
+            PRIMARY KEY (cmpr_Item_Code, measure_Year, achl_Kind_Code)
         )
     """)
-
 def create_Dtl_List(cur: pymysql.cursors.Cursor):
     cur.execute("""
         CREATE TABLE IF NOT EXISTS CMPR_DTL_LIST (
