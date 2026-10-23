@@ -26,6 +26,9 @@ def create_cmpr_Item_List(cur: pymysql.cursors.Cursor):
             PRIMARY KEY (cmpr_Item_Code, measure_Year, achl_Kind_Code)
         )
     """)
+
+## 해당 외래키는 CMPR_ITEM_LIST 테이블의 (cmpr_Item_Code, measure_Year, achl_Kind_Code) 컬럼을 참조합니다.
+##기존에는 (cmpr_Item_Code,measure_Year)을 외래키로 설정했지만, 유일성 보장이 되지않기 때문에 부모의 유일성을 보장하는 컬럼까지 포함하여 외래키를 설정했습니다.
 def create_Dtl_List(cur: pymysql.cursors.Cursor):
     cur.execute("""
         CREATE TABLE IF NOT EXISTS CMPR_DTL_LIST (
@@ -43,8 +46,8 @@ def create_Dtl_List(cur: pymysql.cursors.Cursor):
             measure_Year INT,
                 
             achl_Kind_Code INT,
-            FOREIGN KEY (cmpr_Item_Code, measure_Year)
-                REFERENCES CMPR_ITEM_LIST(cmpr_Item_Code, measure_Year),
+            FOREIGN KEY (cmpr_Item_Code, measure_Year, achl_Kind_Code)
+                REFERENCES CMPR_ITEM_LIST(cmpr_Item_Code, measure_Year, achl_Kind_Code),
             PRIMARY KEY (cmpr_Dtl_Code, cmpr_Item_Code, measure_Year, achl_Kind_Code)
         )
     """)

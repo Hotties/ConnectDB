@@ -1,8 +1,11 @@
 
 import pymysql
 from pymysql.err import OperationalError
+from error import DatabaseError
 from dotenv import load_dotenv
 import os
+
+load_dotenv()  # Load environment variables from .env file
 
 def db_Connect( _host=os.getenv("DB_HOST"),
                 _user=os.getenv("DB_USER"),
@@ -21,26 +24,32 @@ def db_Connect( _host=os.getenv("DB_HOST"),
         
         return conn
     except OperationalError as e:
+
         if e.args[0] == 1049:  # Unknown database
             print(f"Database '{_db}' does not exist. Creating it...")
 
-            # DB 없이 연결 (접속만)
-            conn = pymysql.connect(
-            host=_host,
-            user=_user,
-            passwd=_passwd,
-            charset=_charset
-            )
+            try:
+                # DB 없이 연결 (접속만)
+                conn = pymysql.connect(
+                    host=_host,
+                    user=_user,
+                    passwd=_passwd,
+                    charset=_charset
+                )
+            except OperationalError as e:
+                raise DatabaseError(f"Failed to connect to database server: {e}")
 
-            with conn.cursor() as cursor:
-                cursor.execute(f"CREATE DATABASE `{_db}` DEFAULT CHARACTER SET {_charset};")
-                print(f"Database '{_db}' created.")
+            try:
+                with conn.cursor() as cursor:
+                    cursor.execute(f"CREATE DATABASE `{_db}` DEFAULT CHARACTER SET {_charset};")
+                    print(f"Database '{_db}' created.")
+            except OperationalError as e:
+                raise DatabaseError(f"Failed to create database '{_db}': {e}")
 
             conn.select_db(_db)  # 새 DB 선택
             return conn
 
         else:
             # 다른 오류는 그대로 raise
-            print("Connection failed:", e)
             raise
         
